@@ -218,70 +218,121 @@ li{
   }
 }
 
-//
-//.collapsing {
-//  display: none;
-//}
-//
-//.navbar-toggler {
-//  z-index: 1;
-//}
-//
-//.owl-next, .owl-prev {
-//  display: none;
-//}
-//
-//.nav-item {
-//  &.nav_button {
-//    min-width: 300px;
-//    background-color: #FFFFFF;
-//    border-radius: 40px;
-//    text-align: center;
-//    padding: 23px 47px 23px 47px;
-//    font-family: 'Montserrat', sans-serif;;
-//    font-weight: 600;
-//    font-size: 18px;
-//    line-height: 22px;
-//    color: black;
-//    display: none;
-//    @media (min-width: 360px) and (max-width: 992px) {
-//      display: block;
-//      margin-bottom: 30px;
-//    }
-//  }
-//}
-//
-//.main_button {
-//  min-width: 300px;
-//  background-color: #FFFFFF;
-//  border-radius: 40px;
-//  text-align: center;
-//  padding: 23px 47px 23px 47px;
-//  font-family: 'Montserrat', sans-serif;;
-//  font-weight: 600;
-//  font-size: 18px;
-//  line-height: 22px;
-//  color: black;
-//  &:first-of-type{
-//    margin-right: 20px;
-//  }
-//}
-//.col-12{
-//  h1{
-//    margin-bottom: 30px;
-//  }
-//  p{
-//    margin-bottom: 50px;
-//  }
-//}
-//
-//.content{
-//  position: absolute;
-//  z-index: 1;
-//  width: 100%;
-//  height: 100vh;
-//  left: 0;
-//  top: 0;
-//  display: flex;
-//  align-items: center;
-//}
+/*about--banner*/
+
+.about--banner {
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  padding-top: 70px;
+  padding-bottom: 141px;
+  .text_box {
+    max-width: 445px;
+
+    .about_text {
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 155%;
+      &:first-of-type{
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+.snip1295 {
+  position: relative;
+  overflow: hidden;
+  margin: 7px;
+  padding: 6px;
+  width: 100%;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1295 img {
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1295 .border {
+  position: absolute;
+  opacity: 0.80;
+}
+.snip1295 .border:before,
+.snip1295 .border:after,
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  background-color: #2b59c3;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.snip1295 .border:before,
+.snip1295 .border:after {
+  width: 0;
+  height: 1px;
+}
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  width: 1px;
+  height: 0;
+}
+.snip1295 .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+.snip1295 .border.one:before,
+.snip1295 .border.one div:before {
+  left: 0;
+  top: 0;
+}
+.snip1295 .border.one:after,
+.snip1295 .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1295 .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+.snip1295 .border.two:before,
+.snip1295 .border.two div:before {
+  right: 0;
+  top: 0;
+}
+.snip1295 .border.two:after,
+.snip1295 .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+.snip1295 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+.snip1295:hover .border:before,
+.snip1295.hover .border:before,
+.snip1295:hover .border:after,
+.snip1295.hover .border:after {
+  width: 100%;
+}
+.snip1295:hover .border div:before,
+.snip1295.hover .border div:before,
+.snip1295:hover .border div:after,
+.snip1295.hover .border div:after {
+  height: 100%;
+}
