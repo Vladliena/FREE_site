@@ -228,13 +228,13 @@ li{
   padding-top: 70px;
   padding-bottom: 141px;
   .text_box {
-    max-width: 445px;
+
 
     .about_text {
       font-family: '20 Kopeek';
       font-style: normal;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 20px;
       line-height: 155%;
       &:first-of-type{
         margin-bottom: 25px;
@@ -335,4 +335,92 @@ li{
 .snip1295:hover .border div:after,
 .snip1295.hover .border div:after {
   height: 100%;
+}
+
+.style--banner{
+  h2{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 100%;
+    margin-bottom: 40px;
+  }
+  p{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding-top: 28px;
+  }
+  .number-1{
+    display: flex;
+    &::before{
+      content: '1';
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 100%;
+      margin-right: 8px;
+    }
+  }
+  .number-2{
+    display: flex;
+    &::before{
+      content: '2';
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 100%;
+      margin-right: 8px;
+    }
+  }
+  .number-3{
+    display: flex;
+    &::before{
+      content: '3';
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 100%;
+      margin-right: 8px;
+    }
+  }
+  .number-4{
+    display: flex;
+    &::before{
+      content: '4';
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 100%;
+      margin-right: 8px;
+    }
+  }
+  .number-5{
+    display: flex;
+    &::before{
+      content: '5';
+      font-family: '20 Kopeek Book';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 100%;
+      margin-right: 8px;
+    }
+    span{
+      font-family: '20 Kopeek';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 19px;
+      display: block;
+      margin-top: 15px;
+    }
+  }
 }

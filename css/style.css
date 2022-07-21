@@ -189,14 +189,11 @@ header .email {
 .about--banner h2 {
   margin-bottom: 15px;
 }
-.about--banner .text_box {
-  max-width: 445px;
-}
 .about--banner .text_box .about_text {
   font-family: "20 Kopeek";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 155%;
 }
 .about--banner .text_box .about_text:first-of-type {
@@ -309,6 +306,92 @@ header .email {
 .snip1295:hover .border div:after,
 .snip1295.hover .border div:after {
   height: 100%;
+}
+
+.style--banner h2 {
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-bottom: 40px;
+}
+.style--banner p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  padding-top: 28px;
+}
+.style--banner .number-1 {
+  display: flex;
+}
+.style--banner .number-1::before {
+  content: "1";
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.style--banner .number-2 {
+  display: flex;
+}
+.style--banner .number-2::before {
+  content: "2";
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.style--banner .number-3 {
+  display: flex;
+}
+.style--banner .number-3::before {
+  content: "3";
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.style--banner .number-4 {
+  display: flex;
+}
+.style--banner .number-4::before {
+  content: "4";
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.style--banner .number-5 {
+  display: flex;
+}
+.style--banner .number-5::before {
+  content: "5";
+  font-family: "20 Kopeek Book";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  margin-right: 8px;
+}
+.style--banner .number-5 span {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  display: block;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
