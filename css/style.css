@@ -227,7 +227,7 @@ header .email {
 .snip1295 .border:after,
 .snip1295 .border div:before,
 .snip1295 .border div:after {
-  background-color: #2b59c3;
+  background-color: #399a07;
   position: absolute;
   content: "";
   display: block;
@@ -308,6 +308,10 @@ header .email {
   height: 100%;
 }
 
+/*style--banner*/
+.style--banner {
+  padding-bottom: 120px;
+}
 .style--banner h2 {
   font-family: "20 Kopeek Book";
   font-style: normal;
@@ -324,10 +328,10 @@ header .email {
   line-height: 140%;
   padding-top: 28px;
 }
-.style--banner .number-1 {
+.style--banner .number-1, .style--banner .number-2, .style--banner .number-3, .style--banner .number-4, .style--banner .number-5 {
   display: flex;
 }
-.style--banner .number-1::before {
+.style--banner .number-1::before, .style--banner .number-2::before, .style--banner .number-3::before, .style--banner .number-4::before, .style--banner .number-5::before {
   content: "1";
   font-family: "20 Kopeek Book";
   font-style: normal;
@@ -336,53 +340,17 @@ header .email {
   line-height: 100%;
   margin-right: 8px;
 }
-.style--banner .number-2 {
-  display: flex;
-}
 .style--banner .number-2::before {
   content: "2";
-  font-family: "20 Kopeek Book";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-  margin-right: 8px;
-}
-.style--banner .number-3 {
-  display: flex;
 }
 .style--banner .number-3::before {
   content: "3";
-  font-family: "20 Kopeek Book";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-  margin-right: 8px;
-}
-.style--banner .number-4 {
-  display: flex;
 }
 .style--banner .number-4::before {
   content: "4";
-  font-family: "20 Kopeek Book";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-  margin-right: 8px;
-}
-.style--banner .number-5 {
-  display: flex;
 }
 .style--banner .number-5::before {
   content: "5";
-  font-family: "20 Kopeek Book";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55px;
-  line-height: 100%;
-  margin-right: 8px;
 }
 .style--banner .number-5 span {
   font-family: "20 Kopeek";
@@ -392,6 +360,30 @@ header .email {
   line-height: 19px;
   display: block;
   margin-top: 15px;
+}
+
+/*price--banner*/
+.price--banner {
+  padding-bottom: 144px;
+}
+.price--banner .banner_text {
+  max-width: 400px;
+}
+.price--banner .banner_text p {
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.price--banner .banner_text p:last-of-type {
+  margin-bottom: 0;
+  background-color: #2B59C3;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
